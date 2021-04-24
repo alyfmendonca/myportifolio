@@ -1,0 +1,27 @@
+@import '../../../assets/scss/colors.scss';
+@import '../../../assets/scss/grid.scss';
+
+.banner{
+    background: $darkGreen;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    h1{
+        color: $lightGreen;
+        font-size: 64px;
+        margin-top: 20px;
+    }
+    h3{
+        color: $mediumGreen;
+        font-size: 64px;
+    }
+    p{
+        font-size: 24px;
+        color: $lightGreen;
+    }
+    img{
+        height: 80%;
+    }
+}

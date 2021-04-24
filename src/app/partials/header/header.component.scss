@@ -1,0 +1,33 @@
+@import '../../../assets/scss/colors.scss';
+@import '../../../assets/scss/grid.scss';
+
+header{
+    background: $darkGreen;
+    padding: 20px 0;
+
+    section{
+        display: flex;
+        justify-content: space-between;
+    }
+    a{
+        text-decoration: none;
+        color: $lightGreen;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+    a.email {
+        padding-left: 100px;
+        position: relative;
+    }
+    
+    a.email:before {
+        content: '';
+        height: 1px;
+        background: $lightGreen;
+        bottom: 7px;
+        width: 80px;
+        left: 0;
+        position: absolute;
+    }
+}
