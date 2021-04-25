@@ -1,0 +1,76 @@
+@import '../../../assets/scss/colors.scss';
+@import '../../../assets/scss/grid.scss';
+
+.projects{
+    background: $darkGreen;
+    width: 100%;
+    padding: 100px 0;
+
+    .subtitle{
+        margin: auto;
+    }
+
+    .single-project{
+        padding: 50px 0;
+        align-items: center;
+
+        .project-details{
+            text-align: right;
+            h4{
+                font-size: 24px;
+                margin-bottom: 20px;
+            }
+            .description{
+                font-size: 18px;
+                width: 80%;
+                color: $mediumGreen;
+                margin-left: 20%;
+                margin-bottom: 25px;
+                position: relative;
+                &:before {
+                    content: '';
+                    height: 1px;
+                    width: 90%;
+                    background: #fff;   
+                    bottom: -15px;
+                    right: 0;
+                    position: absolute;
+                }
+            }
+            small{
+                font-size: 14px;
+                color: $mediumGreen;
+                font-family: 'Montserrat', sans-serif;
+
+            }
+        }
+
+        &:nth-child(odd) {
+            direction: rtl;
+            .project-details{
+                text-align: left;
+
+                .description{
+                    margin-left: 0;
+                    margin-right: 20%;
+
+                    &:before{
+                        left: 0;
+                        right: unset;
+                    }
+                }
+            }
+        }
+    }
+    .image-border{
+        width: fit-content;
+        border: 1px solid $lightGreen;
+
+        img{
+            margin-left: -10px;
+            margin-top: -10px;
+            padding-right: 15px;
+            padding-bottom: 10px;
+        }
+    }
+}

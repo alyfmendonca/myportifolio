@@ -25,4 +25,17 @@ div.grid.no-padding{
 .subtitle{
     font-size: 40px;
     margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+    width: fit-content;
+
+    &::before{
+        width: 120%;
+        height: 23px;
+        content: '';
+        position: absolute;
+        background: rgb(182 203 215 / 45%);
+        bottom: -2px;
+        z-index: -1;
+    }
 }

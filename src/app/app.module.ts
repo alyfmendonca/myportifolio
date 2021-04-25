@@ -9,6 +9,7 @@ import { BannerComponent } from './partials/banner/banner.component';
 import { AboutMeComponent } from './partials/about-me/about-me.component';
 import { ExperienceComponent } from './partials/experience/experience.component';
 import { TabsComponent } from './partials/tabs/tabs.component';
+import { ProjectsComponent } from './partials/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TabsComponent } from './partials/tabs/tabs.component';
     BannerComponent,
     AboutMeComponent,
     ExperienceComponent,
-    TabsComponent
+    TabsComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
