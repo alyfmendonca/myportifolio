@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Playfair Display', serif;
     color: $lightGreen;
 }
-p{
+p, span{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     color: $lightGreen;
@@ -21,4 +21,8 @@ p{
 div.grid.no-padding{
     padding: 0;
     max-width: unset;
+}
+.subtitle{
+    font-size: 40px;
+    margin-bottom: 20px;
 }
