@@ -8,6 +8,17 @@
         position: relative;
         z-index: 1;
 
+        &::after{
+            content: "";
+            height: 40px;
+            width: 5px;
+            left: 37%;
+            position: absolute;
+            bottom: 5px;
+            background-image: url('../../../assets/images/one-dot.svg');
+            background-repeat: repeat-y;
+        }
+
         span{
             background: $mediumGreen;
             padding: 5px 35px;
