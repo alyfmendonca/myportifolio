@@ -36,6 +36,18 @@
                     right: 0;
                     position: absolute;
                 }
+
+                &:after{
+                    content: '';
+                    width: 41px;
+                    height: 5px;
+                    background-image: url('../../../assets/images/three-dots.svg');
+                    position: absolute;
+                    left: 15%;
+                    background-repeat: repeat-x;
+                    bottom: -30px;
+                    
+                }
             }
             small{
                 font-size: 14px;
@@ -74,3 +86,4 @@
         }
     }
 }
+
