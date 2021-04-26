@@ -11,22 +11,22 @@ export class ExperienceComponent implements OnInit {
 
   experiences = [
     {
-      title: 'Atual',
-      position: 'Desenvolvedor Front end - BRQ Digital Solutions',
-      duration: 'Novembro/2019 - Presente',
-      description: "Desenvolvedor Front End no banco BTG Pactual Digital, responsável pelo desenvolvimento e manutenção de todas as páginas web do maior banco de investimentos da América Latina. Utilizando, principalmente, Angular 8 para desenvolvimento de aplicações. Produção de LP's, novas aplicações e manutenções diariamente. Utilizando GitFlow, deploy automatizado, componentização, reaproveitamento de código e boas práticas de desenvolvimento e SEO."
+      title: 'BRQ',
+      position: 'Front end developer - BRQ Digital Solutions',
+      duration: 'Nov/2019 - Presente',
+      description: "Responsible for the development and maintenance of all web pages of the biggest investment bank in Latin America. Mainly using Angular 8 for application development. Production of landing pages, new applications and daily maintenance. Using GitFlow, componentization, code reuse and good development practices."
     },
     {
       title: 'Avanade',
-      position: 'Desenvolvedor Front end - BRQ Digital Solutions',
-      duration: 'Novembro/2019 - Presente',
-      description: "segunda"
+      position: 'Software Engineer',
+      duration: 'Nov/2018 - Nov/2019',
+      description: "Acting as Software Engineer building and maintaining old applications. Work using Scrum as agile methodology and versioning code to facilitate teamwork."
     },
     {
       title: 'Aberje',
-      position: 'Desenvolvedor Front end - BRQ Digital Solutions',
-      duration: 'Novembro/2019 - Presente',
-      description: "Desenvolvedor Front End no banco BTG Pactual Digital, responsável pelo desenvolvimento e manutenção de todas as páginas web do maior banco de investimentos da América Latina. Utilizando, principalmente, Angular 8 para desenvolvimento de aplicações. Produção de LP's, novas aplicações e manutenções diariamente. Utilizando GitFlow, deploy automatizado, componentização, reaproveitamento de código e boas práticas de desenvolvimento e SEO."
+      position: 'Front end Developer',
+      duration: 'Nov/2017 - Nov/2018',
+      description: "Responsible for all necessary actions in the association, creating and maintaining the web applications that the company used. Responsible to desing the web pages and implementing them. Great contact with websites using WordPress, PHP, Jquery, JavaScript and CSS."
     }
   ]
 

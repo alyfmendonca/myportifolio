@@ -5,8 +5,32 @@
     // background: $darkGreen;
     width: 100%;
     padding: 100px 0;
+    position: relative;
+
+    &::before{
+        content: "";
+        height: 0;
+        width: 80%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        border-bottom: 1px solid $lightGreen;
+        background-image: url('../../../assets/images/multiple-dots.svg');
+        background-position: top right;
+        background-repeat: no-repeat;
+        padding-top: 20px;
+    }
 
     .subtitle{
         margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .experience{
+        &::before{
+            top: 40px;
+            padding-top: 19px;
+        }
     }
 }

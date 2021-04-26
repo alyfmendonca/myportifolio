@@ -20,9 +20,9 @@ export class HomeComponent implements OnInit {
       ]
     },
     {
-      image: 'mock-project-image.png',
-      name: 'Nome do Projeto 2',
-      link: 'https://www.btgpactualdigital.com/como-investir/artigos',
+      image: 'btgpactual.png',
+      name: 'BTG Pactual Digital',
+      link: 'https://www.btgpactualdigital.com',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie viverra arcu et bibendum. Mauris pharetra augue at purus iaculis suscipit. Aliquam erat volutpat. Cras euismod placerat lacus, eget aliquam nibh ',
       tecnologies: [
         'Sass',
@@ -31,25 +31,26 @@ export class HomeComponent implements OnInit {
       ]
     },
     {
-      image: 'mock-project-image.png',
-      name: 'Nome do Projeto 2',
-      link: 'https://www.btgpactualdigital.com/como-investir/artigos',
+      image: 'brasmeg.png',
+      name: 'Brasmeg',
+      link: 'http://brasmeg.com.br/',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie viverra arcu et bibendum. Mauris pharetra augue at purus iaculis suscipit. Aliquam erat volutpat. Cras euismod placerat lacus, eget aliquam nibh ',
       tecnologies: [
-        'Sass',
-        'NodeJs',
-        'Angular 8'
+        'WordPress',
+        'JavaScript',
+        'HTML/CSS'
       ]
     },
     {
-      image: 'mock-project-image.png',
-      name: 'Nome do Projeto 2',
-      link: 'https://www.btgpactualdigital.com/como-investir/artigos',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie viverra arcu et bibendum. Mauris pharetra augue at purus iaculis suscipit. Aliquam erat volutpat. Cras euismod placerat lacus, eget aliquam nibh ',
+      image: 'escola-aberje.png',
+      name: 'Aberje School',
+      link: 'http://www.escolaaberje.com.br/',
+      description: 'Designed and built by myself in 2018 to join all the Aberje School information. Built using WordPress and CSS/Js animations.',
       tecnologies: [
-        'Sass',
-        'NodeJs',
-        'Angular 8'
+        'WordPress',
+        'JavaScript',
+        'HTML/CSS',
+        'Figma'
       ]
     }
   ]

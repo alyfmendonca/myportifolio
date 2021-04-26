@@ -9,6 +9,8 @@ export class AboutMeComponent implements OnInit {
 
   constructor() { }
 
+  isDesktop = false;
+
   ngOnInit(): void {
   }
 

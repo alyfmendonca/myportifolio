@@ -27,3 +27,25 @@
         z-index: -1;
     }
 }
+
+@media only screen and (min-width: 1800px) {
+    .main-content{
+        &:before{
+            left: -1%;
+        }
+        &:after {
+            right: -1%;
+        }
+    }
+}
+
+@media screen and (max-width: 580px){
+    .main-content{
+        &:before{
+            display: none;
+        }
+        &:after {
+            display: none;
+        }
+    }
+}

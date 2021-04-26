@@ -41,10 +41,54 @@
         font-size: 64px;
     }
     p{
-        font-size: 24px;
+        font-size: 20px;
         color: $lightGreen;
+        margin-top: 20px;
     }
     img{
         height: 80%;
     }
 }
+
+@media only screen and (min-width: 1800px) {
+    .banner{
+    
+        &::before{
+            right: 40%;
+        }
+    
+        &::after{
+            right: 41%;
+        }
+    }
+}
+
+@media screen and (max-width: 580px){
+    .banner{
+        padding: 0;
+        h1, h3{
+            font-size: 48px;
+        }
+
+        img{
+            margin-top: 20px;
+            width: 40%;
+            height: auto;
+        }
+        &::before{
+            width: 52%;
+            height: 1px;
+            right: 5%;
+            bottom: 45%;
+        }
+        &::after{
+            height: 15px;
+            width: 55px;
+            right: 36%;
+            bottom: 46%;
+            background-repeat: repeat-x;
+        }
+    }
+}
+
+    

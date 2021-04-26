@@ -31,9 +31,19 @@
         top: 0;
     }
 
+    .present{
+        p{
+            margin-bottom: 15px;
+        }
+    }
+
     .grid{
         align-items: center;
         justify-content: space-between;
+    }
+
+    .mobile-photo{
+        display: none;
     }
 
     .skills-subtitle{
@@ -46,9 +56,68 @@
             display: flex;
             align-items: center;
             margin-bottom: 10px;
+            font-size: 16px;
         }
         i:first-child {
             margin-left: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .about-me{
+    
+        &::before{
+            width: 25%;
+            right: 40%;
+        }
+    
+        &::after{
+            right: 65%;
+        }
+    }
+}
+
+@media screen and (max-width: 580px){
+    .about-me{
+        padding: 0;
+        &::before{
+            display: none;
+        }
+        &::after{
+            // display: none;
+            right: 5%;
+            top: -38%;
+        }
+
+        // .skills{
+        //     width: 70%;
+        //     margin-left: 0;
+        // }
+
+        .desktop-photo{
+            display: none;
+        }
+
+        .mobile-photo{
+            display: block;
+            width: 30%;
+            float: right;
+            margin-top: -65%;
+        }
+        .my-bio{
+            margin-top: -50px;
+            text-align: right;
+
+            .subtitle{
+                margin: auto;
+                margin-right: 0;
+                margin-bottom: 30px;
+
+                &::before{
+                    right: 0;
+                }
+            }
         }
     }
 }

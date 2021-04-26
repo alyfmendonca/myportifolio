@@ -5,9 +5,21 @@
     // background: $darkGreen;
     width: 100%;
     padding: 100px 0;
+    position: relative;
+
+    &::before{
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 150px;
+        background: $lightGreen;
+        top: -50px;
+        right: 50%;
+    }
 
     .subtitle{
         margin: auto;
+        margin-bottom: 70px;
     }
 
     .single-project{
@@ -92,3 +104,49 @@
     }
 }
 
+@media screen and (max-width: 580px){
+    .projects{
+        padding-bottom: 0;
+        
+        .image-border{
+            margin: auto;
+            width: 95%;
+            margin-bottom: 30px;
+        }
+        .single-project{
+            .project-details{
+                text-align: left;
+    
+                .description{
+                    width: 100%;
+                    margin-left: 0;
+                    margin-right: 0;
+
+                    &::before{
+                        left: 0;
+                        right: unset;
+                    }
+                    &::after{
+                        left: unset;
+                        right: 10%;
+                    }
+                }
+            }
+            &:nth-child(odd) {
+                .project-details{
+                    text-align: left;
+        
+                    .description{
+                        width: 100%;
+                        margin-left: 0;
+                        margin-right: 0;
+
+                        &:after{
+                            right: 10%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

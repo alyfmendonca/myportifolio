@@ -14,7 +14,7 @@
             width: 5px;
             left: 37%;
             position: absolute;
-            bottom: 5px;
+            bottom: -15px;
             background-image: url('../../../assets/images/one-dot.svg');
             background-repeat: repeat-y;
         }
@@ -26,8 +26,9 @@
             border-radius: 5px;
             max-width: 95px;
             color: $darkGreen;
-            margin-bottom: 30px;
+            margin-bottom: 50px;
             cursor: pointer;
+            font-size: 16px;
 
             &.active{
                 background: $lightGreen;
@@ -38,7 +39,7 @@
             content: '';
             width: 1px;
             height: 100%;
-            background: #fff;
+            background: $lightGreen;
             position: absolute;
             left: 35%;
             z-index: -1;
@@ -60,6 +61,25 @@
         }
         .description{
             margin-top: 25px;
+        }
+    }
+}
+
+@media screen and (max-width: 580px){
+    .tabs{
+        .tabs-header{
+            flex-direction: row;
+
+            span{
+                margin-right: 20px;
+            }
+
+            &::before{
+                display: none;
+            }
+            &::after{
+                display: none;
+            }
         }
     }
 }

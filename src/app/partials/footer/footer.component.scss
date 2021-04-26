@@ -40,3 +40,18 @@ footer{
         color: $mediumGreen;
     }
 }
+
+@media screen and (max-width: 580px){
+    .grid{
+        flex-direction: column-reverse;
+        text-align: center;
+
+        nav{
+            margin-bottom: 25px;
+        }
+        .email{
+            display: none;
+        }
+    }
+
+}
