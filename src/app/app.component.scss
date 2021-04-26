@@ -1,5 +1,6 @@
 .main-content{
     position: relative;
+    overflow: hidden;
 
     &:before{
         content: "";
@@ -11,6 +12,7 @@
         background-image: url('../assets/images/right-bg-element.svg');
         background-size: 800px;
         background-position: top right;
+        z-index: -1;
     }
     &:after {
         content: "";
@@ -22,5 +24,6 @@
         background-image: url('../assets//images/right-bg-element.svg');
         background-size: 800px;
         background-position: center left;
+        z-index: -1;
     }
 }

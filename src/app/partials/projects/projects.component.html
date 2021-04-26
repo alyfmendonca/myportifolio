@@ -2,9 +2,11 @@
     <h3 class="subtitle">Projetos</h3>
     <div class="grid single-project" *ngFor="let project of projects">
         <div class="cell-6-desktop cell-4-tablet cell-4-phone">
-            <div class="image-border">
-                <img src="../../../assets/images/{{project.image}}" class="project-image" alt="">
-            </div>
+            <a [href]="project.link" target="_blank">
+                <div class="image-border">
+                    <img src="../../../assets/images/{{project.image}}" class="project-image" alt="">
+                </div>
+            </a>
         </div>
         <div class="cell-6-desktop cell-4-tablet cell-4-phone project-details">
             <h4>{{project.name}}</h4>
