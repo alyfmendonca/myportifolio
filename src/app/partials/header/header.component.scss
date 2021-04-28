@@ -30,4 +30,16 @@ header{
         left: 0;
         position: absolute;
     }
+
+    .social-media-icon{
+        width: 20px;
+        height: 20px;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .no-mobile{
+        display: none;
+    }
 }

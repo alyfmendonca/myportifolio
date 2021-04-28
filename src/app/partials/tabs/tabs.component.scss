@@ -69,9 +69,19 @@
     .tabs{
         .tabs-header{
             flex-direction: row;
+            width: 100%;
+            overflow: scroll;
 
             span{
-                margin-right: 20px;
+                border-bottom: 1px solid $mediumGreen;
+                background: transparent;
+                color: $lightGreen;
+                border-radius: 0;
+
+                &.active{
+                    background: transparent;
+                    border-bottom: 1px solid $lightGreen;
+                }
             }
 
             &::before{

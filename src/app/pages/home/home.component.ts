@@ -12,7 +12,18 @@ export class HomeComponent implements OnInit {
       image: 'como-investir.png',
       name: 'BTG Pactual Digital | How Invest',
       link: 'https://www.btgpactualdigital.com/como-investir/artigos',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie viverra arcu et bibendum. Mauris pharetra augue at purus iaculis suscipit. Aliquam erat volutpat. Cras euismod placerat lacus, eget aliquam nibh ',
+      description: 'I implement this web app by myself follow the design I recieved of the design team. This is an application to help people about how invest and how get some news about the subject. On this project we have a WordPress who send all the data as an API',
+      tecnologies: [
+        'Sass',
+        'WordPress',
+        'Angular 9'
+      ]
+    },
+    {
+      image: 'btgpactual.png',
+      name: 'BTG Pactual Digital',
+      link: 'https://www.btgpactualdigital.com',
+      description: 'The main web page of the biggest investment bank of Latin America. approximately 10k accesses per day. The biggest application I have worked until now',
       tecnologies: [
         'Sass',
         'NodeJs',
@@ -20,10 +31,10 @@ export class HomeComponent implements OnInit {
       ]
     },
     {
-      image: 'btgpactual.png',
-      name: 'BTG Pactual Digital',
-      link: 'https://www.btgpactualdigital.com',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie viverra arcu et bibendum. Mauris pharetra augue at purus iaculis suscipit. Aliquam erat volutpat. Cras euismod placerat lacus, eget aliquam nibh ',
+      image: 'sejabtg.png',
+      name: 'Seja BTG',
+      link: 'https://sejabtg.com',
+      description: 'An Angular project built to communicate with investment advisers of BTG Pactual.',
       tecnologies: [
         'Sass',
         'NodeJs',
@@ -34,7 +45,7 @@ export class HomeComponent implements OnInit {
       image: 'brasmeg.png',
       name: 'Brasmeg',
       link: 'http://brasmeg.com.br/',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie viverra arcu et bibendum. Mauris pharetra augue at purus iaculis suscipit. Aliquam erat volutpat. Cras euismod placerat lacus, eget aliquam nibh ',
+      description: 'A project in partnership by me and "Master 12" digital agency. Built in WordPress using advanced js and css concepts.',
       tecnologies: [
         'WordPress',
         'JavaScript',
